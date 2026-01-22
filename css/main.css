@@ -1,21 +1,36 @@
 /* Place CSS styles here */
 body {
   background-color: #d29fff;
-  font-size: 28px;
-  color: #faebd7;
-}
-
-h1 {
-  font-size: 54px;
-  color:#faebd7
-}
-
-img {
-  width: 400px; 
-	height: 400px;      
-  border: 10px solid #ff84f1;
-  border-style: dotted;
+  font-size: 14px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #faebd7;
 }
+div{
+  font-size: 15px;
+  color: #4c0143;
+  border: #543561;
 
+}
+h1 {
+  font-size: 54px;
+  background-color: #543561;
+  text-align: center;
+  color:#faebd7
+}
+image{
+  width: 400px;
+  height: 400px;
+  
+
+}
+p{
+  margin: left 5px;;
+  margin-right: auto;
+  color: #faebd7;
+}
+a{
+  color: #4c0143;
+}
