@@ -1,19 +1,37 @@
 /* Place CSS styles here */
 body {
   background-color: #d29fff;
-  font-size: 14px;
+  font-size: 16px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 25px;
   padding-right: 25px;
   color: #faebd7;
 }
+a:hover{
+  color: #00ffff;
+}
+a:focus{
+  outline: 2px auto #ffffff;
+}
+
 div{
-  font-size: 15px;
+  font-size: 20px;
+  background-color: #fdc4fb;
   color: #4c0143;
-  border: #543561;
+  border: #543561 solid 2px;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
 
 }
+.nav a {
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
 h1 {
   font-size: 54px;
   background-color: #543561;
@@ -23,11 +41,12 @@ h1 {
 image{
   width: 400px;
   height: 400px;
+  margin-right: auto;
+  margin-left: auto;
   
 
 }
 p{
-  margin: left 5px;;
   margin-right: auto;
   color: #faebd7;
 }
