@@ -12,7 +12,7 @@ a:hover{
   color: #00ffff;
 }
 a:focus{
-  outline: 2px auto #ffffff;
+  outline: 2px solid #00ffff;
 }
 
 div{
@@ -50,6 +50,25 @@ p{
   margin-right: auto;
   color: #faebd7;
 }
+.submit-button {
+  background-color: #ffb6d9;    
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;          
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+.submit-button:hover {
+  background-color: #ff8fc4;    
+}
+
+
 a{
   color: #4c0143;
+}
+:focus{
+  outline: solid 3px #00ffff;
 }
